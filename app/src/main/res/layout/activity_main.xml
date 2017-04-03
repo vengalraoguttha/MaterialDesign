@@ -5,6 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.vengalrao.android.materialdesign.MainActivity">
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="scroll design demo"
+        android:id="@+id/scroll_design_demo"/>
     <include layout="@layout/circular_reveal_animation" />
 </LinearLayout>
